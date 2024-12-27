@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Navbar */
+.nav-link{
+    color: white;
+    margin: auto;
+}
+ .nav-link:hover {
+  text-decoration: underline;
+  color: white;
+
+}
+.nav-link:active , .f2-btn{
+    color: #078855;
+}
+.f2-btn:hover{
+    text-decoration: underline;
+    color: #078855;
+    background: transparent;
+    border: 0;
+}
+.nav-btn:hover {
+    background-color: #078855;
+    color: white;
+}
+#hero-sec{
+    height: 100vh;
+    background-image: url(./Assets/Video1-homepage/pexels-nickoloui-2473183.jpg);
+    background-size:100vw;
+    background-repeat: no-repeat;
+}
+
+
+#feature-overview > div > div{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+
+
+/* Video */
+
+#video {
+    width: 100%;
+    height: 600px;
+}
+.video-container {
+   width: 80%;
+   height: 100%;
+   animation-name: video;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+#superior-sound-quality{
+    background-image: url(./Assets/Video1-homepage/bacground-3.jpg);
+    background-size: contain;
+    height: 100vh;
+}
+
+@keyframes video{
+   0%{
+       background-image: url(./assets/Video1-homepage/1.png);
+   }
+   25%{
+       background-image: url(./assets/Video1-homepage/2.png);
+   }
+   75%{
+       background-image: url(./assets/Video1-homepage/3.png);
+   }
+   100%{
+       background-image: url(./assets/Video1-homepage/3.png);
+   }
+}
+
+#device-features{
+    background-image: url(./Assets/room-images/img-5.jpg);
+    background-size: cover;  
+}
+
+.video-expand-container-img{
+    background-image: url(./Assets/room-images/A-conference-room-system.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+.intelligent-workplace-img{
+    background-image: url("./Assets/room-images/cq5dam.jpeg");
+    height: 550px;
+    width: 550px;
+    background-size: cover;
+}
+
+.card{
+    width: 320px;
+}
+.card > p {
+    font-size: small;
+    text-indent: 1px;
+}
